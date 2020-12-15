@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-7</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+   <form action="http://www.example.com/comments.php">
+       <fieldset>
+           <legend>Your-Details</legend>
+    <label>Name: <input type="text" name="Name" size="15" maxlength="30"></label>
+    <br>
+    <br>
+    <label>Email: <input type="email" name="Email" size="15" maxlength="30"></label>
+
+
+</fieldset>
+<br>
+<fieldset>
+
+    <legend>Your Review</legend>
+    <label>How did you hear about us?</label> <span></span> <select><option>Google
+        <option>Facebook</option>
+        <option>Instagram</option>
+    </option></select></p>
+    
+    <label>Would you visit again</label>
+    <br>
+    <br>
+    <label> <input type="radio"  name=" Yes"value="Yes" >  Yes </label>
+    <label><input type="radio" name="No" value="No" > No</label>
+    <label> <input type="radio" name="May be" value="maybe" checked="checked"> May be</label>
+    <br>
+    <p>Comments:</p>
+    <textarea cols="40" rows="8" name="text">
+</textarea>
+<br>
+<br>
+  <label> <input type="checkbox"> Sign me up for Email updates</label>
+  <br>
+  
+  <input type="submit" value="Submit review" >
+</fieldset>   
+
+
+
+</form>
+</body>
+</html>
